@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CubeGameModule } from './cube-game/cube-game.module';
+import { MainPageModule } from './main-page/main-page.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CubeGameModule,
+    MainPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

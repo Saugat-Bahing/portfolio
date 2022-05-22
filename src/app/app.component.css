@@ -1,0 +1,14 @@
+.container  {
+    animation: rotate1 1s ease 1;
+    overscroll-behavior: contain;
+}
+
+
+@keyframes rotate1 {
+    from {transform: rotateY(-180deg);}
+    to {transform: rotateY(0deg);}
+}
+
+.outlet {
+    background-color: red;
+}

@@ -1,0 +1,11 @@
+<div class="scene">
+    <div class="score">
+        Score: {{score}}<br>
+        Click on the red face.
+    </div>
+    <div *ngFor="let cube of cubesList; let i=index">
+        <div class="pos" [style.left]="cube[0]" [style.top]="cube[1]">
+            <app-cube [cubeIndex] = "i" (killedCubeIndex)="killCube($event)"></app-cube>
+        </div>
+    </div>
+</div>
