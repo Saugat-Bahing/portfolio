@@ -1,0 +1,31 @@
+.nav-bar {
+    height: 100px;
+    width: 600px;
+    border-bottom: 1px solid grey;
+    z-index: 10;
+    /* border: 1px solid red; */
+}
+
+.nav-bar ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-bar ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav-bar ul li:hover {
+    font-size: 1.8rem;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

@@ -4,6 +4,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CubeGameModule } from '../cube-game/cube-game.module';
 import { ProjectsComponent } from './projects/projects.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -15,7 +16,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
   ],
   imports: [
     CommonModule,
-    CubeGameModule
+    CubeGameModule,
+    AppRoutingModule
   ],
   exports: [
     LandingPageComponent

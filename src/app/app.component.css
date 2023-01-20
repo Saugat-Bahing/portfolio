@@ -1,6 +1,5 @@
 .container  {
-    animation: rotate1 1s ease 1;
-    overscroll-behavior: contain;
+    /* animation: rotate1 1s ease 1; */
 }
 
 
