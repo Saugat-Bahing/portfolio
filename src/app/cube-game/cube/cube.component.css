@@ -30,8 +30,8 @@
 
 .front {
     transform: translateZ(calc(var(--box-size)/2));
-    background-color: #FF000B;
-    box-shadow: 0 0 15px #FF000B;
+    background-color: #ff676f;
+    box-shadow: 0 0 15px #f83e47;
 }
 
 .back {
@@ -42,14 +42,14 @@
 
 .left {
     transform: rotateY(90deg) translateZ(calc(var(--box-size)/-2)) ;
-    background-color: #1900FF;
-    box-shadow: 0 0 15px #1900FF;
+    background-color: #5f4eff;
+    box-shadow: 0 0 15px #4f3cff;
 }
 
 .right {
     transform: rotateY(-90deg) translateZ(calc(var(--box-size)/-2)) ;
-    background-color: #E6FF00;
-    box-shadow: 0 0 15px #E6FF00;
+    background-color: #ebff3b;
+    box-shadow: 0 0 15px #ecff41;
 }
 
 .top {
@@ -60,8 +60,8 @@
 
 .bottom {
     transform: rotateX(-90deg) translateZ(calc(var(--box-size)/2)) ;
-    background-color: #EB00FF;
-    box-shadow: 0 0 15px #EB00FF;
+    background-color: #f045ff;
+    box-shadow: 0 0 15px #ee34ff;
 }
 
 

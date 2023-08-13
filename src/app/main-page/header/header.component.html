@@ -1,0 +1,12 @@
+<div class="header-container" [ngClass]="toggleHeader?'compressed-header-container':''">
+    <div class="header content-container" [ngClass]="toggleHeader?'compressed-header':''">
+        <div class="logo" [ngClass]="toggleHeader?'compressed-logo':''">
+            <img src="../../../assets/images/favicon.png" alt="logo">
+        </div>
+        <div class="nav-bar">
+            <span class="tab" *ngFor="let tab of menu; let i=index" (click)="navigateToSection(i)">
+                {{tab}}
+            </span>
+        </div>
+    </div>
+</div>

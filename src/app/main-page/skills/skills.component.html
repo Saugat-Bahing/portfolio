@@ -1,0 +1,51 @@
+<div #skills class="section">
+    <div class="skills">
+        <h2 class="title">Skills</h2>
+        <div class="skills-content">
+            <div class="skill-card">
+                <div class="skill-card-title">Forntend</div>
+                <div class="skill-card-content">
+                    <div class="skill" *ngFor="let skill of frontendSkills">
+                        <div class="image">
+                            <img [src]="skill.icon" alt="html">
+                        </div>
+                        <span class="skill-name">{{skill.name}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-title">Backend</div>
+                <div class="skill-card-content">
+                    <div class="skill" *ngFor="let skill of backendSkills">
+                        <div class="image">
+                            <img [src]="skill.icon" alt="html">
+                        </div>
+                        <span class="skill-name">{{skill.name}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-title">Database</div>
+                <div class="skill-card-content">
+                    <div class="skill" *ngFor="let skill of databaseSkills">
+                        <div class="image">
+                            <img [src]="skill.icon" alt="html">
+                        </div>
+                        <span class="skill-name">{{skill.name}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-card-title">Tools</div>
+                <div class="skill-card-content">
+                    <div class="skill" *ngFor="let skill of tools">
+                        <div class="image">
+                            <img [src]="skill.icon" alt="html">
+                        </div>
+                        <span class="skill-name">{{skill.name}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

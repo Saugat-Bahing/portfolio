@@ -1,0 +1,68 @@
+.home-content {
+    min-height: 600px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 90%;
+}
+
+.title {
+    color: #ffffff;
+    margin-left: 8%;
+    margin-bottom: 40px;
+    opacity: 90%;
+}
+
+.title-name {
+    font-size: 3.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    opacity: 90%;
+}
+
+.sub-title {
+    margin-left: 8%;
+    color: #ffffff;
+    font-size: 2rem;
+    opacity: 90%;
+    width: fit-content;
+    display: flex;
+}
+
+.banner-caption {
+    height: 200px;
+    position: relative;
+    top: 30px;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, rgba(114,15,212,1) 4%, rgba(121,33,121,1) 38%, rgba(99,92,157,1) 56%, rgba(65,211,152,1) 72%, rgba(62,190,216,1) 80%, rgba(213,99,204,1) 94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  .typewriter {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-right: 2px solid rgb(255, 255, 255); 
+    padding-right: 2px;
+
+  }
+
+  .b-none {
+    padding-right: 5px;
+    animation: blink-caret 1s step-end infinite;
+  }
+
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(247, 247, 247); }
+  }
+
+ 
